@@ -89,19 +89,48 @@ export default class Example extends Component {
           ],
           roles: [
             {
-              title: 'Web Software Developer',
-              company: 'ABC Solutions',
-              location: 'Anytown, Your County, United Kingdom',
-              startdate: new Date(2018, 2, 1),
+              title: 'College Ambassador',
+              company: 'Army Institute of education',
+              location: 'Grater Noida, Uttar Pradesh, India',
+              startdate: new Date(2020, 11, 12),
               current: true,
               positions: [
-                { title: 'Student editorial board member' },
-                { title: 'Training and placement cell Coordinator' },
-                { title: 'Discipline Committee member' },
-                { title: 'NSS Cell Member' },
-                { title: 'House Captain' }
-
+                { title: 'Training and placement cell Coordinator', startdate: new Date(2020, 11, 12), current: true, },
               ]
+            }, {
+              title: 'NSS Cell Member',
+              company: 'Army Institute of education',
+              location: 'Grater Noida, Uttar Pradesh, India',
+              startdate: new Date(2020, 11, 12),
+              current: true,
+              positions: [
+                { title: 'NSS Secretary', startdate: new Date(2020, 11, 12), current: true },
+              ],
+              info: `Organised various activities regarding creating awareness for road safety, effective use of Ayurveda.
+              Acted as an active member of Covid Task force and helped citizens of India with their emergency need related to medicine, vaccine another facilities and warded for the same.`
+
+            }, {
+              title: 'Student Editorial Board Member',
+              location: 'Grater Noida, Uttar Pradesh, India',
+              startdate: new Date(2020, 11, 12),
+              current: true,
+              company: 'Army Institute of education',
+              positions: [
+                { title: 'Student editorial board member', startdate: new Date(2020, 11, 12), current: true },
+              ],
+              info: ''
+            },
+            {
+              title: 'Class Representative ',
+              location: 'Grater Noida, Uttar Pradesh, India',
+              startdate: new Date(2020, 11, 12),
+              current: true,
+              company: 'Army Institute of education',
+              positions: [
+                { title: 'Class Representative', startdate: new Date(2020, 11, 12), current: true },
+              ],
+              info: `Be a voice for the students to ensure that they have a qualitative learning experience at AIE.
+              Supporting the college in maintenance of discipline in the class and setting a good example for the class in both academic and non-academic areas.`
             }
           ],
           qualifications: [
