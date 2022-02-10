@@ -34,7 +34,9 @@ export default class Example extends Component {
               skills: [
                 { name: 'Excel', group: 'Technologies' },
                 { name: 'Powerpoint', group: 'Technologies' },
+                { name: 'ICT in Education', group: 'Technologies' },
                 { name: 'Word', group: 'Technologies' },
+
                 { name: 'Classroom Management', group: 'Key Skills' },
                 { name: 'Leadership', group: 'Key Skills' },
                 { name: 'Confident', group: 'Key Skills' },
@@ -60,8 +62,9 @@ export default class Example extends Component {
                 { name: 'Effective goal-setting', group: 'Key Skills' },
                 { name: 'Strong Communicator', group: 'Key Skills' },
                 { name: 'Confident', group: 'Key Skills' },
-                { name: 'Leadership', group: 'Key Skills' },
+                { name: 'Collaborative', group: 'Key Skills' },
                 { name: 'Engaging', group: 'Key Skills' },
+                { name: 'Value the real world learning', group: 'Key Skills' },
 
               ],
             },
@@ -97,17 +100,17 @@ export default class Example extends Component {
               startdate: new Date(2020, 11, 12),
               current: true,
               positions: [
-                { title: 'Training and placement cell Coordinator', startdate: new Date(2020, 11, 12), current: true, },
+                { title: 'College Ambassador', startdate: new Date(2020, 11, 12), current: true, },
               ],
               info: `Represented the college in a professional and ethical manner at all times. Assisting with all aspects of college events, including but not limited to: o Set-up, greeting guests, helping with check-in, and clean-up for program events.`
             }, {
-              title: 'NSS Cell Member',
+              title: 'NSS',
               company: 'Army Institute of education',
               location: 'Grater Noida, Uttar Pradesh, India',
               startdate: new Date(2020, 11, 12),
               current: true,
               positions: [
-                { title: 'NSS Secretary', startdate: new Date(2020, 11, 12), current: true },
+                { title: 'NSS Member', startdate: new Date(2020, 11, 12), current: true },
               ],
               info: `Organised various activities regarding creating awareness for road safety, effective use of Ayurveda.
               Acted as an active member of Covid Task force and helped citizens of India with their emergency need related to medicine, vaccine another facilities and warded for the same.`
@@ -130,7 +133,7 @@ export default class Example extends Component {
               current: true,
               company: 'Army Institute of education',
               positions: [
-                { title: 'Class Representative', startdate: new Date(2020, 11, 12), current: true },
+                { title: 'Training and placement cell Coordinator', startdate: new Date(2020, 11, 12), current: true },
               ],
               info: `Being as  member of training and placement cell i have acted as  student coordinator for 02 week Personality Development Programme (PDP) and many more events and helped  in the placement process.`
             }
@@ -158,7 +161,7 @@ export default class Example extends Component {
               name: '10th',
               location: 'Kendriya Vidyalaya, No.4, Delhi Cantt',
               startdate: new Date(2012, 4, 1),
-              enddate: new Date(2013, 31, 1),
+              enddate: new Date(2013, 1, 1),
               image: Cbse
             }
           ],
@@ -170,9 +173,12 @@ export default class Example extends Component {
             { name: 'Value the real world learning', group: 'Key Skills', level: 80 },
             { name: 'Leadership', group: 'Key Skills', level: 80 },
 
-            { name: 'Microsoft Office', group: 'Technologies', level: 90 },
-            { name: 'Microsoft Office Specialist for Office Excel', group: 'Technologies', level: 90 },
+            { name: 'Excel', group: 'Technologies', level: 90 },
             { name: 'ICT in Education', group: 'Technologies', level: 80 },
+            { name: 'Word', group: 'Technologies', level: 85 },
+            { name: 'Powerpoint', group: 'Technologies', level: 85 },
+
+
           ],
         }}
         page={{
