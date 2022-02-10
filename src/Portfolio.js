@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import ProfileImage from "./images/profile.jpeg";
 import InternShip from "./images/internship.webp"
 import Ict from "./images/ict.webp";
+import Aie from "./images/aie.jpeg";
+import Cbse from "./images/CBSE.png";
 
 
 export default class Example extends Component {
@@ -18,7 +20,7 @@ export default class Example extends Component {
           imageUrl: ProfileImage,
           title: "at Army Institute of Education",
           mailto: "ssshubham109@gmail.com",
-
+          linkedin: 'https://www.linkedin.com/in/shubham-k-62a408100',
           projects: [
             {
               name: 'Internship',
@@ -96,7 +98,8 @@ export default class Example extends Component {
               current: true,
               positions: [
                 { title: 'Training and placement cell Coordinator', startdate: new Date(2020, 11, 12), current: true, },
-              ]
+              ],
+              info: `Represented the college in a professional and ethical manner at all times. Assisting with all aspects of college events, including but not limited to: o Set-up, greeting guests, helping with check-in, and clean-up for program events.`
             }, {
               title: 'NSS Cell Member',
               company: 'Army Institute of education',
@@ -118,10 +121,10 @@ export default class Example extends Component {
               positions: [
                 { title: 'Student editorial board member', startdate: new Date(2020, 11, 12), current: true },
               ],
-              info: ''
+              info: `Acted as an active member of Student Editorial Board member for session 2020-21 magazine named “Vivaksha”. Contributed articles and also acted as  student editor for articles in magazine.`
             },
             {
-              title: 'Class Representative ',
+              title: 'Training and placement cell Coordinator',
               location: 'Grater Noida, Uttar Pradesh, India',
               startdate: new Date(2020, 11, 12),
               current: true,
@@ -129,8 +132,7 @@ export default class Example extends Component {
               positions: [
                 { title: 'Class Representative', startdate: new Date(2020, 11, 12), current: true },
               ],
-              info: `Be a voice for the students to ensure that they have a qualitative learning experience at AIE.
-              Supporting the college in maintenance of discipline in the class and setting a good example for the class in both academic and non-academic areas.`
+              info: `Being as  member of training and placement cell i have acted as  student coordinator for 02 week Personality Development Programme (PDP) and many more events and helped  in the placement process.`
             }
           ],
           qualifications: [
@@ -139,21 +141,25 @@ export default class Example extends Component {
               location: 'Army Institute of education',
               startdate: new Date(2020, 8, 1),
               enddate: new Date(),
+              image: Aie
             }, {
               name: 'Bachelors of Commerce(B.com.)',
               location: 'Delhi University',
               startdate: new Date(2016, 8, 1),
               enddate: new Date(2019, 7, 1),
+              image: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png',
             }, {
               name: '12th',
               location: 'Kendriya Vidyalaya, No.4, Delhi Cantt',
               startdate: new Date(2014, 4, 1),
               enddate: new Date(2015, 5, 1),
+              image: Cbse
             }, {
               name: '10th',
               location: 'Kendriya Vidyalaya, No.4, Delhi Cantt',
               startdate: new Date(2012, 4, 1),
               enddate: new Date(2013, 31, 1),
+              image: Cbse
             }
           ],
           skills: [
